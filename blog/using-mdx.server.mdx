@@ -1,0 +1,46 @@
+---
+title: Using MDX Server
+date: 2021-07-24
+---
+
+# Using MDX
+
+This article explains how to use MDX files in your project.
+It shows how you can pass props and how to import, define, or pass components. {/* more */}
+See [§ Getting started][start] for how to integrate MDX into your project.
+To understand how the MDX format works, we recommend that you start with
+[§ What is MDX][what].
+
+## Contents
+
+- [How MDX works](#how-mdx-works)
+- [MDX content](#mdx-content)
+  - [Props](#props)
+  - [Components](#components)
+  - [Layout](#layout)
+- [MDX provider](#mdx-provider)
+
+## How MDX works
+
+An integration compiles MDX syntax to JavaScript.
+Say we have an MDX document, `example.mdx`:
+
+```mdx path="input.mdx"
+export const Thing = () => <>World</>;
+
+# Hello <Thing />
+```
+
+That’s _roughly_ turned into the following JavaScript.
+The below might help to form a mental model:
+
+```js path="output-outline.jsx"
+
+```
+
+Some observations:
+
+- The output is serialized JavaScript that still needs to be evaluated
+- A comment is injected to configure how JSX is handled
+- It’s a complete file with import/exports
+- A component (`MDXContent`) is exported

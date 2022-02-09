@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import * as React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 // @ts-ignore
@@ -37,7 +38,7 @@ const Layout = ({ pageTitle, children }) => {
         </ul>
       </nav>
       <main>
-        <h1 className={heading}>{pageTitle || data?.site?.siteMetadata?.title}</h1>
+        <h1 className={heading}>{pageTitle || ''}</h1>
         {children}
       </main>
     </div>
