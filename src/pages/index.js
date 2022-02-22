@@ -35,9 +35,7 @@ const IndexPage = () => {
 
     </Container>
 
-      <StyledEngineProvider injectFirst>
-       <Demo />
-     </StyledEngineProvider>,
+     
      
 
       <StaticImage
@@ -46,6 +44,9 @@ const IndexPage = () => {
       />
 
     </Layout>
+    <StyledEngineProvider injectFirst>
+    <Demo />
+  </StyledEngineProvider>
     </div>
   )
 }
