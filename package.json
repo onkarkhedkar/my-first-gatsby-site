@@ -15,14 +15,36 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/lab": "^4.0.0-alpha.60",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
-    "gatsby": "^4.6.1",
+    "@mui/icons-material": "^5.4.2",
+    "@mui/lab": "^5.0.0-alpha.70",
+    "@mui/material": "^5.4.3",
+    "@mui/styled-engine-sc": "^5.4.2",
+    "gatsby": "^4.7.2",
     "gatsby-plugin-image": "^2.6.0",
     "gatsby-plugin-mdx": "^3.7.0",
     "gatsby-plugin-sharp": "^4.6.0",
+    "gatsby-remark-embed-snippet": "^7.7.0",
+    "gatsby-remark-embed-video": "^3.1.1",
+    "gatsby-remark-prismjs": "^6.7.0",
     "gatsby-source-filesystem": "^4.6.0",
+    "gatsby-source-git": "^1.1.0",
+    "gatsby-transformer-remark": "^5.7.0",
+    "get-youtube-id": "^1.0.1",
+    "monaco-editor": "^0.32.1",
+    "prismjs": "^1.26.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-bootstrap": "^2.1.2",
+    "react-burger-menu": "^2.7.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "react-pro-sidebar": "^0.7.1",
+    "react-router-dom": "^6.2.1",
+    "react-youtube": "^7.14.0",
+    "styled-components": "^5.3.3"
   }
 }
